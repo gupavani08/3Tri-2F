@@ -7,7 +7,7 @@ function criaCartao(tema,pergunta,resposta) {
     <h3> ${tema}</h3>
     <div class="cartao-conteudo-pergunta">
       ${pergunta}
-      <div>
+      </div>
         <div class="cartao-conteudo-resposta">
          ${resposta}
         </div>
@@ -15,7 +15,7 @@ function criaCartao(tema,pergunta,resposta) {
     container.appendChild(cartao)
     
 }
-criaCartao('historia','Em que ano iniciou-sea guerra do Vietnã','em 1955')
+criaCartao('historia','Em que ano iniciou-se guerra do Vietnã','em 1955')
 
 criaCartao('Português', 'O que é paroxitona?',
 'Uma paroxitona é uma palavra cuja a silaba tônica é penultima')

@@ -59,8 +59,8 @@ footer p{
 
 .cartao-conteudo-pergunta{
     color: var(--cor-do-texto);
-   height: 50%;
-    padding: 20px;
+    padding: 70px;
+    font-weight: 500;
 }
 
 .cartao-conteudo-pergunta,
